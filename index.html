@@ -150,6 +150,11 @@
 
   .icon { width: 22px; height: 22px; flex-shrink: 0; display: flex; align-items: center; justify-content: center; }
   .icon svg { width: 100%; height: 100%; }
+
+  .video-wrap { width: 100%; margin-bottom: 18px; border-radius: 18px; overflow: hidden; border: 1.5px solid rgba(255,160,60,0.5); box-shadow: 0 6px 24px rgba(0,0,0,0.4); }
+  .video-wrap .ratio { position: relative; width: 100%; padding-top: 56.25%; background: #000; }
+  .video-wrap iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; }
+  .video-label { font-size: 0.8rem; color: rgba(255,255,255,0.85); text-align: center; padding: 8px 10px; background: rgba(0,0,0,0.35); letter-spacing: 0.03em; }
 </style>
 </head>
 <body>
@@ -164,6 +169,11 @@
         <p class="tagline">🎵 Worship through sound</p>
         <p class="tagline">🔥 New Album: Why Am I Here? — Out Now</p>
         <p class="tagline">17 songs of faith, waiting and coming home</p>
+      </div>
+
+      <div class="video-wrap">
+        <div class="ratio"><iframe src="https://www.youtube.com/embed/yIXH0alJqxw" title="Why Am I Here? — Full Album" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen loading="lazy"></iframe></div>
+        <div class="video-label">▶ Watch the full album on YouTube · 1 hr 23 min</div>
       </div>
 
       <div class="links">
